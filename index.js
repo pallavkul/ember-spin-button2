@@ -48,6 +48,7 @@ module.exports = {
     app.__emberSpinButton2IncludedInvoked = true;
     this._super.included && this._super.included.apply(this, arguments);
 
+    app.import('bower_components/bootstrap-sass/assets/javascripts/bootstrap.js');
     app.import('vendor/spin.js/spin.js');
     app.import('vendor/spinner.js', {
       exports: {
