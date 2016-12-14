@@ -1,7 +1,7 @@
 {
-  "name": "ember-spin-button2",
-  "version": "0.1.1",
-  "description": "An ember addon for promise-based spinner button using spin.js.",
+  "name": "ember-ambari-ui-components",
+  "version": "0.0.1",
+  "description": "An ember addon for Hortonworks components.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kashiif/ember-spin-button2.git"
+    "url": "git@github.com:pallavkul/ember-spin-button2.git"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Kashif Iqbal Khan",
+  "author": "Pallav Kulshreshtha",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -52,7 +52,6 @@
     "spin.js": "^2.3.2"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "demoURL": "https://kashiif.github.io/ember-spin-button2/demo/"
+    "configPath": "tests/dummy/config"
   }
 }
